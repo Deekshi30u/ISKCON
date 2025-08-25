@@ -1,0 +1,23 @@
+#top_section{
+    background-image: url("images/Iskcon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    position: relative;
+    height: 100vh;
+    background-position: center;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+body{
+    background: linear-gradient(300deg,
+                #03d1f6,
+                #b0e6f3,
+                #f9e776);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+        border-radius: 2rem;
+}

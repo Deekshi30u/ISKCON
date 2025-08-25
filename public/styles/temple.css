@@ -1,0 +1,21 @@
+.hero_bg_box{
+    float:right;
+}
+
+.lists{
+    color: black;
+}
+.tmpl{
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+body{
+    background: linear-gradient(300deg,
+                #03d1f6,
+                #b0e6f3,
+                #f9e776);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+        border-radius: 2rem;
+}

@@ -1,0 +1,68 @@
+/* /* .col-md-5{
+    width: 700px;
+    height: 700px;
+    max-width: 100%; /* To ensure responsiveness 
+    height: auto; 
+
+
+} */
+.deekshi {
+    opacity: 0.9; /* Adjust this value as needed */
+}
+
+/* Optional: To make sure the text inside the caption remains fully opaque */
+.carousel-caption h1,
+.carousel-caption p {
+    position: relative;
+    z-index: 1;
+}
+.row{
+    padding-left:40px;
+    padding-top:90px;
+    margin-top: 10px;
+}
+body {
+    background-image:'images/RKtemple.jpeg'; /* Path to your image */
+    background-size: cover;  /* Ensures the image covers the entire page */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    color: rgb(0, 0, 0);  /* Makes the text color more visible */
+}
+/* Center the images and text inside each column */
+.col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Ensure the images inside .col-md- classes are centered */
+.col-lg-4 img {
+    margin: 0 auto;
+    display: block;
+}
+
+.col-md-5{
+    border-radius: 50%;
+}
+.bd-placeholder-img{
+    border-radius: 50%;
+}
+
+.img-fluid{
+    float: right;
+}
+
+.radha{
+    float:right;
+}
+body{
+    background: linear-gradient(300deg,
+                #03d1f6,
+                #b0e6f3,
+                #f9e776);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+        border-radius: 2rem;
+}
